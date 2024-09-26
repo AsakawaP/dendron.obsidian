@@ -1,0 +1,22 @@
+# dendron
+node_modules
+.dendron.*
+build
+seeds
+.next
+pods/service-connections
+
+# dendron dependencies
+dependencies/github.com/AsakawaP/*
+# dependencies/localhost/*
+
+# obsidian
+.obsidian/plugins/*/**
+!.obsidian/plugins/**/data.json
+.obsidian/themes/*
+.obsidian/graph.json
+.obsidian/workspace*.json
+.trash
+
+# syncthing
+.stfolder

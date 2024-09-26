@@ -1,0 +1,18 @@
+# Auto detect text files and perform LF normalization
+*                   text=auto
+
+# Configuration
+*.yml               text
+*.code-workspace    text
+*.json              text
+
+# Dendron
+*.md                text
+
+# Graphic
+*.png               binary
+*.jpg               binary
+*.jpeg              binary
+*.gif               binary
+*.bmp               binary
+*.ico               binary

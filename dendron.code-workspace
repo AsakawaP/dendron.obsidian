@@ -1,0 +1,52 @@
+{
+    "folders": [
+        {
+            "path": "notes",
+            "name": "dendron.obsidian"
+        }
+    ],
+    "settings": {
+        "dendron.rootDir": ".",
+        "files.autoSave": "onFocusChange",
+        "pasteImage.path": "${currentFileDir}/assets/images",
+        "pasteImage.prefix": "/",
+        "markdown-preview-enhanced.enableWikiLinkSyntax": true,
+        "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
+        "editor.snippetSuggestions": "inline",
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggest.showSnippets": true,
+        "editor.tabCompletion": "on",
+        "dendron.enableSelfContainedVaultWorkspace": true,
+        "files.eol": "\n",
+        "files.exclude": {
+            ".dendron.cache.json": true
+        },
+        "git.openRepositoryInParentFolders": "always",
+        "auto-run-command.rules": [
+            {
+                "condition": "always",
+                "command": "workbench.view.extension.dendron-view",
+                "message": "Activate Dendron TreeView"
+            }
+        ]
+    },
+    "extensions": {
+        "recommendations": [
+            "dendron.dendron",
+            "dendron.dendron-paste-image",
+            "dendron.dendron-markdown-shortcuts",
+            "redhat.vscode-yaml",
+            "webplan-pro.dendron-keybindings",
+            "dendron.adjust-heading-level",
+            "gabrielgrinberg.auto-run-command"
+        ],
+        "unwantedRecommendations": [
+            "dendron.dendron-markdown-links",
+            "dendron.dendron-markdown-notes",
+            "dendron.dendron-markdown-preview-enhanced",
+            "shd101wyy.markdown-preview-enhanced",
+            "kortina.vscode-markdown-notes",
+            "mushan.vscode-paste-image"
+        ]
+    }
+}
