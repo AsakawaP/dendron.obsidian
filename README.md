@@ -13,12 +13,12 @@ This repository tries to introduce a workflow to take advantages of [Dendron][] 
   Managing with Git
 - Hierarchies notes  
   Designed by Dendron
-- Cross-platform
+- Cross-platform  
   Using Obsidian app
 
-## File structure
+## File Structure
 
-```plaintext
+```plain-text
 dendron.obsidian/
 ├── notes/
 │   ├── .vscode/
