@@ -31,8 +31,8 @@ dendron.obsidian/
 ├── obsidian/
 │   ├── templates/
 │   │   └── daily.journal.md
-│   ├── notes.dataview/
-│   └── notes.dbfolder/
+│   ├── notes.dbfolder/
+│   └── notes.longform/
 ├── dependencies/
 │   ├── localhost/
 │   │   └── private.vault/
