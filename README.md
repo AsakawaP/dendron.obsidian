@@ -2,10 +2,24 @@
 
 > There is no loftier ambition than the pursuit of knowledge.
 
+## TL;DR
+
 This project aims to explore a workflow to integrate the strengths of [Dendron][] and [Obsidian][] both :-)
 
 [Dendron]: https://www.dendron.so
 [Obsidian]: https://obsidian.md
+
+---
+
+- [TL;DR](#tldr)
+- [Features](#features)
+- [How to Use](#how-to-use)
+- [File Structure](#file-structure)
+  - [VSCode and Git](#vscode-and-git)
+  - [Dendron](#dendron)
+  - [Obsidian](#obsidian)
+
+---
 
 ## Features
 
@@ -38,29 +52,28 @@ dendron.obsidian/
 ├── dendron.code-workspace
 ├── obsidian.templates/
 │   └── daily.journal.md
-├── obsidian.plugins/
+├── obsidian.*/
 ├── .obsidian/
 ├── settings.code-workspace
 ├── .gitignore
 └── README.md
 ```
 
+### VSCode and Git
+
+- `settings.code-workspace` the workspace for configurations and source control
+- `.git*` Git dotfiles
+
 ### Dendron
 
 - `notes` Dendron hierarchies notes
 - `dendron.yml` Dendron config file
 - `dendron.code-workspace` Dendron workspace
-- `dependencies` multi vaults of the user  
-  remote vaults are dedicated Git repositories
-- `seeds` read-only vaults by others
+- `dependencies` multi vaults directory  
+  Remote vaults: dedicated Git repositories
+- `seeds` vaults shared by others, read-only
 
 ### Obsidian
 
 - `.obsidian` Obsidian configurations
 - `obsidian.*` notes that rely on Obsidian, e.g. `DataView`, `DB Folder` and `Longform`
-
-### VSCode and Git
-
-- `settings.code-workspace` workspace to manage files in this repository  
-  Markdown notes and cache files are excluded
-- `.git*` Git dotfiles
