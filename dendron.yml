@@ -5,20 +5,20 @@ dev:
 commands:
     lookup:
         note:
-            selectionMode: extract
+            selectionMode: none
             confirmVaultOnCreate: true
             vaultSelectionModeOnCreate: smart
-            leaveTrace: false
+            leaveTrace: true
             bubbleUpCreateNew: true
             fuzzThreshold: 0.2
     randomNote: {}
     insertNoteLink:
-        aliasMode: none
+        aliasMode: prompt
         enableMultiSelect: false
     insertNoteIndex:
         enableMarker: false
     copyNoteLink:
-        aliasMode: title
+        aliasMode: none
     templateHierarchy: template
 workspace:
     vaults:
@@ -105,4 +105,4 @@ publishing:
     enableRandomlyColoredTags: true
     enableTaskNotes: true
     enablePrettyLinks: true
-    searchMode: search
+    searchMode: lookup
