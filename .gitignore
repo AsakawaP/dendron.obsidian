@@ -19,4 +19,4 @@ dependencies/github.com/AsakawaP/*
 .trash
 
 # syncthing
-.stfolder
+.st*
