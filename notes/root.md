@@ -1,14 +1,16 @@
 ---
 id: dendron-obsidian-root
-title: Root
-desc: Exploring a workflow to integrate the strengths of Dendron and Obsidian both :-)
-updated: 1729774016321
-created: 1723569278308
+title: Dendron + Obsidian
+desc: exploring a workflow to integrate the strengths of Dendron and Obsidian both :-)
+updated: 1729842764028
+created: 1727339278308
 ---
 
-## Welcome to Dendron.Obsidian
+## TL;DR
 
 This is the root of the dendron vault.
+
+The aim of this project is **{{fm.desc}}**
 
 ## References
 
