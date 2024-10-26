@@ -1,9 +1,10 @@
 ---
 id: dendron-obsidian-root
-title: Dendron + Obsidian
+title: Root
 desc: exploring a workflow to integrate the strengths of Dendron and Obsidian both :-)
 updated: 1729842764028
 created: 1727339278308
+uri: https://github.com/AsakawaP/dendron.obsidian
 ---
 
 ## TL;DR
