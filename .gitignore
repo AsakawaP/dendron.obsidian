@@ -14,8 +14,11 @@ dependencies/github.com/AsakawaP/*
 .obsidian/plugins/*/**
 !.obsidian/plugins/**/data.json
 .obsidian/themes/*
+.obsidian/community-plugins.json
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
 .obsidian/graph.json
-.obsidian/workspace*.json
+.obsidian/global-search.json
 .trash
 
 # syncthing

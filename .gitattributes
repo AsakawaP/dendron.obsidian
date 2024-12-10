@@ -1,12 +1,9 @@
-# Auto detect text files and perform LF normalization
 *                   text=auto
 
-# Configuration
+# Text
 *.yml               text
 *.code-workspace    text
 *.json              text
-
-# Dendron
 *.md                text
 
 # Graphic
