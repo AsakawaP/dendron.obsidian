@@ -1,11 +1,14 @@
 {
   "folders": [
+    // Only Dendron note folders, where `root.md` files are, should be added to `dendron.code-workspace`.
+    // Adding other folders will cause Dendron failing to start.
     {
       "path": "notes",
       "name": "dendron.obsidian"
     }
   ],
   "settings": {
+    // Dendron default settings
     "dendron.rootDir": ".",
     "files.autoSave": "onFocusChange",
     "pasteImage.path": "${currentFileDir}/assets/images",
@@ -17,11 +20,14 @@
     "editor.suggest.showSnippets": true,
     "editor.tabCompletion": "on",
     "dendron.enableSelfContainedVaultWorkspace": true,
-    "files.eol": "\n",
+    // Exclude Dendron cache file
     "files.exclude": {
       ".dendron.cache.json": true
     },
+    // `dendron.code-workspace` only contains subfolders in the repository.
+    // By enabling this, VSCode will detect GIT_DIR automatically.
     "git.openRepositoryInParentFolders": "always",
+    // Activate Dendron Tree View at startup
     "auto-run-command.rules": [
       {
         "condition": "always",
