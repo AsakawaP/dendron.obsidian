@@ -3,7 +3,7 @@
         {
             "path": ".",
             "name": "dendron.obsidian"
-        },
+        }
         // {
         //     "path": "seeds/dendron.dendron-site",
         //     "name": "dendron.dendron-site"
@@ -11,26 +11,13 @@
         // {
         //     "path": "seeds/dendron.templates",
         //     "name": "dendron.templates"
-        // },
-        // {
-        //     "path": "seeds/dendron.tldr",
-        //     "name": "dendron.tldr"
-        // },
-        // {
-        //     "path": "seeds/dendron.xkcd",
-        //     "name": "dendron.xkcd"
         // }
     ],
     "settings": {
-        "files.autoSave": "onFocusChange",
-        "editor.snippetSuggestions": "inline",
-        "editor.suggest.snippetsPreventQuickSuggestions": false,
-        "editor.suggest.showSnippets": true,
-        "editor.tabCompletion": "on",
-        "workbench.colorTheme": "Default Light+",
-        "files.eol": "\n",
-        "git.openRepositoryInParentFolders": "never",
-        "git.detectSubmodules": false,
+        "git.repositoryScanIgnoredFolders": [
+            "seeds",
+            "node_modules"
+        ],
         "auto-run-command.rules": [
             {
                 "condition": "always",
@@ -39,14 +26,16 @@
             }
         ],
         "files.exclude": {
+            // Dendron
             "notes/*.md": true,
             "dependencies/": true,
             "**/.dendron.*": true,
+            // Obsidian
             "obsidian/notes.*/": true,
             ".obsidian/plugins/**/{main.js,styles.css,manifest.json}": true,
             ".obsidian/plugins/**/{.*.json,*.log}": true,
-            ".obsidian/themes/": true,
-            ".obsidian/{graph,workspace*}.json": true
+            ".obsidian/{graph,workspace,workspace-mobile,global-search}.json": true,
+            ".obsidian/themes/": true
         }
     },
     "extensions": {
