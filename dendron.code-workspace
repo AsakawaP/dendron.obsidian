@@ -20,17 +20,14 @@
     "editor.suggest.showSnippets": true,
     "editor.tabCompletion": "on",
     "dendron.enableSelfContainedVaultWorkspace": true,
-    // Exclude Dendron cache file
-    "files.exclude": {
-      "**/.dendron.cache.json": true
-    },
-    // `dendron.code-workspace` only contains subfolders in the repository.
-    // By enabling this, VSCode will detect GIT_DIR automatically.
+    // By enabling this, VSCode Git will detect GIT_DIR of the main repository automatically.
     "git.openRepositoryInParentFolders": "always",
+    // By enabling this, VSCode Git will ignore Dendron seeds in the `seeds` folder.
     "git.repositoryScanIgnoredFolders": [
-      "seeds"
+      "seeds",
+      "node_modules"
     ],
-    // Activate Dendron Tree View at startup
+    // Activate Dendron Tree-View at startup
     "auto-run-command.rules": [
       {
         "condition": "always",
