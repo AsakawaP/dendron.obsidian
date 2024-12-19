@@ -13,3 +13,7 @@
 *.gif               binary
 *.bmp               binary
 *.ico               binary
+
+# Asset
+
+*.pdf               binary

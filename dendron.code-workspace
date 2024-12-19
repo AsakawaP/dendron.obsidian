@@ -22,7 +22,7 @@
     "dendron.enableSelfContainedVaultWorkspace": true,
     // By enabling this, VSCode Git will detect GIT_DIR of the main repository automatically.
     "git.openRepositoryInParentFolders": "always",
-    // By enabling this, VSCode Git will ignore Dendron seeds in the `seeds` folder.
+    // By enabling this, VSCode Git will ignore the `seeds` folder.
     "git.repositoryScanIgnoredFolders": [
       "seeds",
       "node_modules"

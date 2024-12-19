@@ -27,11 +27,11 @@
         ],
         "files.exclude": {
             // Dendron
-            "notes/*.md": true,
+            "**/notes/*.md": false,
+            "obsidian.*/": false,
             "dependencies/": true,
             "**/.dendron.*": true,
             // Obsidian
-            "obsidian/notes.*/": true,
             ".obsidian/plugins/**/{main.js,styles.css,manifest.json}": true,
             ".obsidian/plugins/**/{.*.json,*.log}": true,
             ".obsidian/{graph,workspace,workspace-mobile,global-search}.json": true,
