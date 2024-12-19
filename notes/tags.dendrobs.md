@@ -21,5 +21,8 @@ SORT updated DESC
    <summary><b>MOC of dendron.obsidian</b></summary>
 
 <!-- QueryToSerialize: LIST FROM "" AND -"seeds" WHERE contains(file.tags, regexreplace(this.file.name, "tags\.", "")) SORT updated DESC -->
+<!-- SerializedQuery: LIST FROM "" AND -"seeds" WHERE contains(file.tags, regexreplace(this.file.name, "tags\.", "")) SORT updated DESC -->
+- [[dendrobs.obsidian.plugin.dendron]]
+<!-- SerializedQuery END -->
 
 </details>
