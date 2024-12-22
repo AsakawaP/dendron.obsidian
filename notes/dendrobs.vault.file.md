@@ -2,13 +2,13 @@
 id: dnqbcn8qnm69kpxo7ehew2t
 title: File Structure
 desc: ''
-updated: 1734582863390
+updated: 1734886698513
 created: 1734575775311
 ---
 
 ## File Structure
 
-```plain-text
+```text
 dendron.obsidian/
 ├── dendron.code-workspace
 ├── dendron.yml
@@ -22,7 +22,7 @@ dendron.obsidian/
 │           └── remote_vault/
 │               └── notes/
 ├── seeds/
-│   └── dendron.xkcd/
+│   └── dendron.dendron-site/
 │       └── vault/
 ├── .obsidian/
 ├── templates/

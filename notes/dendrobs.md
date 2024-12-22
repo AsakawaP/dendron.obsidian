@@ -9,5 +9,5 @@ created: 1734583474979
 ## Index
 
 - [[Guidance|dendrobs.vault]]
-- [[Dendron and VSCode|dendrobs.dendron]]
+- [[Dendron and VSCode|dendrobs.vscode]]
 - [[Obsidian|dendrobs.obsidian]]
