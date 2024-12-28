@@ -2,11 +2,19 @@
 id: jbccpqx1gj1lomsaj1e6aay
 title: Dendron
 desc: The personal knowledge management (PKM) tool that grows as you do!
-updated: 1734886916844
+updated: 1735378230576
 created: 1734606882523
 ---
 
 > [dendronhq/dendron](https://github.com/dendronhq/dendron): {{fm.desc}}
+
+## Introduce
+
+**Dendron**,[^1] or [Dendrite][dendrite], is a branched cytoplasmic process that extends from a nerve cell that propagates the electrochemical stimulation received from other neural cells to the cell body, or soma, of the neuron from which the dendrites project.
+
+[dendrite]: <https://en.wikipedia.org/wiki/Dendrite>
+
+[^1]: `δένδρον`, the Greek word for "tree".
 
 ## Reference
 
