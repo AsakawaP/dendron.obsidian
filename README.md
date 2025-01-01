@@ -14,4 +14,4 @@ This project aims to explore a workflow to integrate the strengths of [Dendron][
 1. Install VSCode + Dendron, and Obsidian.
 2. Open [`dendron.code-workspace`](dendron.code-workspace) in this repository with VSCode,  
    or open this repository with Obsidian.
-3. Start a journey from [`root`](notes/root.md) or [`Guidance`](notes/dendrobs.vault.md).
+3. Start a journey from [`root`](notes/root.md) or [`Index`](notes/dendrobs.md).

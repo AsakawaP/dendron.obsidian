@@ -6,7 +6,7 @@ updated: 1735306165090
 created: 1735304738957
 ---
 
-**{{fm.title}}** is the founder and CEO of [[dendrobs.vscode.dendron]].
+**{{fm.title}}** is the founder and CEO of [[dendrobs.dendron]].
 
 - [Personal HomePage](https://www.kevinslin.com)
 - [GitHub](https://github.com/kevinslin)

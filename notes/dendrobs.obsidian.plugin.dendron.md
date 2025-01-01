@@ -10,7 +10,7 @@ tags:
 
 > [Rudtrack/structured-tree](https://github.com/Rudtrack/structured-tree)
 
-**{{fm.title}}** is an active folk of [levirs565/obsidian-dendron-tree][dendron-tree], which adds a tree view for exploring [[dendrobs.vscode]] style notes.
+**{{fm.title}}** is an active folk of [levirs565/obsidian-dendron-tree][dendron-tree], which adds a tree view for exploring [[dendrobs.dendron.vscode]] style notes.
 
 [dendron-tree]: <https://github.com/levirs565/obsidian-dendron-tree>
 

@@ -2,20 +2,20 @@
 id: io1h8g88n283fn9zs717za0
 title: 'Kevin @ Dendron: How to Index 10,000 Notes'
 desc: ''
-updated: 1735354936164
+updated: 1735732449968
 created: 1735303075360
 ---
 
 ## Dendron 笔记 Kevin: 该如何索引 10,000 条笔记
 
-> [!NOTE] Summary
+> [!NOTE]
 >
 > This is an excerpt from the [S3E10][kevin] episode of "[从零道一][0011]", a Chinese podcast, in March 2022.[^1]  
-> In this episode, the host interviewed @kevinslin (Founder & CEO @ [[dendrobs.vscode.dendron]]).
+> In this episode, the host interviewed @kevinslin (Founder & CEO @ [[dendrobs.dendron]]).
 > The episode can also be found at [WeChat][wx] and [Apple Podcast][ap].
 >
 > 这是中文播客“[从零道一][0011]” [S3E10][kevin] 的节选。  
-> 在本期节目中，主持人采访了 @kevinslin ([[dendrobs.vscode.dendron]] 的缔造者和 CEO)。  
+> 在本期节目中，主持人采访了 @kevinslin ([[dendrobs.dendron]] 的缔造者和 CEO)。  
 > 你可以在[微信公众号][wx]和 [Apple Podcast][ap] 找到这期节目。
 
 [kevin]: <https://www.0011.one/posts/S3E10> "Kevin @ Dendron"
