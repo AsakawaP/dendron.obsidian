@@ -2,7 +2,7 @@
 id: dnqbcn8qnm69kpxo7ehew2t
 title: File Structure
 desc: ''
-updated: 1734886698513
+updated: 1736076820710
 created: 1734575775311
 ---
 
@@ -13,6 +13,7 @@ dendron.obsidian/
 ├── dendron.code-workspace
 ├── dendron.yml
 ├── notes/
+│   └── assets/
 ├── dependencies/
 │   ├── localhost/
 │   │   └── local_vault/
@@ -39,6 +40,7 @@ dendron.obsidian/
 - `dendron.code-workspace` Dendron workspace
 - `dendron.yml` Dendron config file
 - `notes` default note directory
+  - `assets` attachment files directory
 - `dependencies` directory to integrate multi vaults
   - Local vault
     `dependencies/localhost/VAULT_NAME`  
@@ -55,7 +57,7 @@ dendron.obsidian/
 - `.obsidian` Obsidian configurations, themes and plugins
 - `templates` template notes for Obsidian
 - `obsidian.*` folders of notes which rely on Obsidian or are not suitable with Dendron  
-  e.g. `Canvas`, `Longform`, `DB Folder`
+  e.g. `Obsidian Canvas`, `Longform`
 
 ## VSCode and Git
 

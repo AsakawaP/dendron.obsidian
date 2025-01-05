@@ -1,18 +1,17 @@
 ---
 id: rzkt0lns2cr49rkl9bg68qt
-title: Dendron Index
+title: Dendron.Obsidian
 desc: ''
-updated: 1735732364860
+updated: 1736076591264
 created: 1734583474979
 ---
 
 ## Index
 
+- [[Dendron|dendrobs.dendron]]
 - [[Obsidian|dendrobs.obsidian]]
-- [[Dendron and VSCode|dendrobs.dendron.vscode]]
 - [[Resource|dendrobs.resource]]
 - [[Topic|dendrobs.topic]]
-- [[Dendron|dendrobs.dendron]]
 
 ***
 
