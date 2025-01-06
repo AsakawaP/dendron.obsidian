@@ -18,7 +18,7 @@ commands:
     insertNoteIndex:
         enableMarker: false
     copyNoteLink:
-        aliasMode: title
+        aliasMode: none
     templateHierarchy: templates
 workspace:
     vaults:
