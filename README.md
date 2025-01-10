@@ -1,5 +1,7 @@
 # dendron.obsidian
 
+![logo-banner](notes/assets/images/dendrobs.dendron.png)
+
 > There is no loftier ambition than the pursuit of knowledge.
 
 ## TL;DR
