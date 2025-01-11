@@ -2,13 +2,13 @@
 id: jbccpqx1gj1lomsaj1e6aay
 title: Dendron
 desc: The personal knowledge management (PKM) tool that grows as you do!
-updated: 1736527084512
+updated: 1736559111949
 created: 1734606882523
 ---
 
-![logo-banner](assets/images/dendrobs.dendron.png)
-
 > [dendronhq/dendron](https://github.com/dendronhq/dendron): {{fm.desc}}
+
+![logo-banner](assets/images/dendrobs.dendron.png)
 
 ## Introduction
 
