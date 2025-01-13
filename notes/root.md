@@ -1,8 +1,8 @@
 ---
 id: dendron-obsidian-root
 title: Root
-desc: Exploring a workflow to integrate the strengths of Dendron and Obsidian both :P
-updated: 1736526253745
+desc: '*integrating the strengths of Dendron and Obsidian both :P*'
+updated: 1736741536257
 created: 1727339278308
 uri: https://github.com/AsakawaP/dendron.obsidian
 ---
@@ -11,8 +11,16 @@ uri: https://github.com/AsakawaP/dendron.obsidian
 
 ## TL;DR
 
-The aim of this project is **{{fm.desc}}**
+### Dendron
+
+The aim of this project is building a powerful second brain by {{fm.desc}}
+
+### Obsidian
+
+The aim of this project is growing a living digital garden by `#= this.desc`
+
+## Quick Start
 
 This is the root of the dendron vault.
 
-For more details, see [[dendrobs]].
+Start a journey from [[dendrobs]].

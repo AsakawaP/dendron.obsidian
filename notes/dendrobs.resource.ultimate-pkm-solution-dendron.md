@@ -71,4 +71,4 @@ VSCode 已成为现代编程的最佳工具，有丰富的功能插件和解决�
 
 ### Obsidian
 
-这个不错，推荐使用，如果更熟悉用 VSCode 的话，可以用 [[Dendron|dendrobs.obsidian.plugin.dendron]] 插件。
+这个不错，推荐使用，如果更熟悉用 VSCode 的话，可以用 [[Dendron|dendrobs.obsidian.plugin.structured-tree]] 插件。

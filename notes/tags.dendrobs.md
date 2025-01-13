@@ -22,7 +22,7 @@ SORT updated DESC
 
 <!-- QueryToSerialize: LIST FROM "" AND -"seeds" WHERE icontains(file.tags, regexreplace(this.file.name, "tags\.", "")) SORT updated DESC -->
 <!-- SerializedQuery: LIST FROM "" AND -"seeds" WHERE icontains(file.tags, regexreplace(this.file.name, "tags\.", "")) SORT updated DESC -->
-- [[dendrobs.obsidian.plugin.dendron]]
+- [[dendrobs.obsidian.plugin.structured-tree]]
 <!-- SerializedQuery END -->
 
 </details>
