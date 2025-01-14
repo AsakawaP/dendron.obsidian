@@ -10,8 +10,9 @@ created: 1734608184229
 
 ```dataview
 LIST
-FROM "" AND -"seeds"
-WHERE icontains(file.tags, regexreplace(this.file.name, "tags\.", ""))
+WHERE
+  startswith(file.name, "dendrobs")
+  AND icontains(file.tags, regexreplace(this.file.name, "tags\.", ""))
 SORT updated DESC
 ```
 
@@ -20,8 +21,8 @@ SORT updated DESC
 <details>
    <summary><b>MOC of dendron.obsidian</b></summary>
 
-<!-- QueryToSerialize: LIST FROM "" AND -"seeds" WHERE icontains(file.tags, regexreplace(this.file.name, "tags\.", "")) SORT updated DESC -->
-<!-- SerializedQuery: LIST FROM "" AND -"seeds" WHERE icontains(file.tags, regexreplace(this.file.name, "tags\.", "")) SORT updated DESC -->
+<!-- QueryToSerialize: LIST WHERE startswith(file.name, "dendrobs") AND icontains(file.tags, regexreplace(this.file.name, "tags\.", "")) SORT updated DESC -->
+<!-- SerializedQuery: LIST WHERE startswith(file.name, "dendrobs") AND icontains(file.tags, regexreplace(this.file.name, "tags\.", "")) SORT updated DESC -->
 - [[dendrobs.obsidian.plugin.structured-tree]]
 <!-- SerializedQuery END -->
 

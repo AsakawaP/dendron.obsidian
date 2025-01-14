@@ -11,15 +11,17 @@ created: 1736742458279
 %%
 
 ```dataview
-LIST FROM [[#]]
+LIST
+WHERE startswith(file.name, "dendrobs")
+  AND author = this.file.link
 ```
 
 %%
 
 ## Serialized Query
 
-<!-- QueryToSerialize: LIST FROM [[#]] -->
-<!-- SerializedQuery: LIST FROM [[#]] -->
+<!-- QueryToSerialize: LIST WHERE startswith(file.name, "dendrobs") AND author = this.file.link -->
+<!-- SerializedQuery: LIST WHERE startswith(file.name, "dendrobs") AND author = this.file.link -->
 - [[dendrobs.example.hamlet]]
 - [[dendrobs.example.lear]]
 - [[dendrobs.example.macbeth]]

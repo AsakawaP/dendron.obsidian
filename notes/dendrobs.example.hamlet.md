@@ -2,7 +2,7 @@
 id: 30m4uo6xm2sewiv57gzmw3d
 title: Hamlet 哈姆雷特
 desc: 王子复仇记
-updated: 1736743755540
+updated: 1736876177128
 created: 1736741713616
 ---
 
@@ -14,4 +14,4 @@ created: 1736741713616
 
 ## Backmatter
 
-- author:: [[dendrobs.example.shakespeare]]
+- author:: [[user.dendrobs.shakespeare]]
