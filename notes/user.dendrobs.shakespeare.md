@@ -14,14 +14,15 @@ created: 1736742458279
 LIST
 WHERE startswith(file.name, "dendrobs")
   AND author = this.file.link
+SORT file.name ASC
 ```
 
 %%
 
 ## Serialized Query
 
-<!-- QueryToSerialize: LIST WHERE startswith(file.name, "dendrobs") AND author = this.file.link -->
-<!-- SerializedQuery: LIST WHERE startswith(file.name, "dendrobs") AND author = this.file.link -->
+<!-- QueryToSerialize: LIST WHERE startswith(file.name, "dendrobs") AND author = this.file.link SORT file.name ASC -->
+<!-- SerializedQuery: LIST WHERE startswith(file.name, "dendrobs") AND author = this.file.link SORT file.name ASC -->
 - [[dendrobs.example.hamlet]]
 - [[dendrobs.example.lear]]
 - [[dendrobs.example.macbeth]]
