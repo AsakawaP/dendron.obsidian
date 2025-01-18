@@ -1,3 +1,4 @@
+# Auto detect text files and perform LF normalization
 *                   text=auto
 
 # Text
@@ -15,5 +16,4 @@
 *.ico               binary
 
 # Asset
-
 *.pdf               binary
