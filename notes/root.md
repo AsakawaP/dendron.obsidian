@@ -3,7 +3,7 @@ id: dendron-obsidian-root
 title: Root
 desc: '*integrating the strengths of Dendron and Obsidian both :P*'
 updated: 1736741536257
-created: 1727339278308
+created: 1729820200500
 uri: https://github.com/AsakawaP/dendron.obsidian
 ---
 
