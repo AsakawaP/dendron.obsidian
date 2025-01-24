@@ -1,7 +1,9 @@
 {
   "folders": [
-    // Only Dendron note folders, where `root.md` files are, should be added to `dendron.code-workspace`.
+    // NOTE:
+    // Only relative paths of Dendron note folders, where `root.md` files are, should be added to `dendron.code-workspace`.
     // Adding other folders will cause Dendron failing to start.
+    // Dendron can detect vaults defined in `dendron.yml` automatically, so there is no need to add all vaults here.
     {
       "path": "notes",
       "name": "dendron.obsidian"
@@ -12,6 +14,9 @@
     "dendron.rootDir": ".",
     "files.autoSave": "onFocusChange",
     "pasteImage.path": "${currentFileDir}/assets/images",
+    // NOTE:
+    // The prefix "/" in image paths, which means the absolute path "root", is necessary for Dendron publishing.
+    // If this vault is not intended to be published, or needs to be compatible with Obsidian, the prefix should be removed to use relative paths instead.
     "pasteImage.prefix": "/",
     "markdown-preview-enhanced.enableWikiLinkSyntax": true,
     "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
@@ -20,9 +25,10 @@
     "editor.suggest.showSnippets": true,
     "editor.tabCompletion": "on",
     "dendron.enableSelfContainedVaultWorkspace": true,
-    // By enabling this, VSCode Git will detect GIT_DIR of the main repository automatically.
+    // VSCode Git settings
+    // Detect $GIT_DIR of the main repository automatically
     "git.openRepositoryInParentFolders": "always",
-    // By enabling this, VSCode Git will ignore the `seeds` folder.
+    // Ignore repositories in "seeds" and other folders
     "git.repositoryScanIgnoredFolders": [
       "seeds",
       "node_modules"

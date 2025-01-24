@@ -40,12 +40,15 @@
     },
     "extensions": {
         "recommendations": [
+            "oderwat.indent-rainbow",
             "davidanson.vscode-markdownlint",
             "huacnlee.autocorrect",
-            "oderwat.indent-rainbow",
             "yzhang.markdown-all-in-one",
+            "jebbs.markdown-extended",
+            "takumii.markdowntable",
             "cescript.markdown-formula",
-            "bierner.github-markdown-preview"
+            "gruntfuggly.todo-tree",
+            "geezmolycos.vscode-hanzi-counter"
         ]
     }
 }
