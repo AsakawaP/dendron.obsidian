@@ -2,7 +2,7 @@
   "folders": [
     // NOTE:
     // Only relative paths of Dendron note folders, where `root.md` files are, should be added to `dendron.code-workspace`.
-    // Adding other folders will cause Dendron failing to start.
+    // Adding non-Dendron folders will cause Dendron failing to start.
     // Dendron can detect vaults defined in `dendron.yml` automatically, so there is no need to add all vaults here.
     {
       "path": "notes",

@@ -2,12 +2,11 @@
 id: tzk8ytvuq7tqcfajz2jj46s
 title: 终极笔记 Dendron
 desc: ''
-updated: 1735732456727
+updated: 1738328516814
 created: 1735354690683
 ---
 
-> [!NOTE]
->
+> [!NOTE]  
 > 本文节选自博客 [世风十三学堂](https://wind13.github.io/post/2021/ultimate-pkm-solution-dendron/)。  
 > 作者简述了在其看来几类 PKM 笔记方案的特点和 Dendron 的优势。
 
