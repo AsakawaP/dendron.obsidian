@@ -2,7 +2,7 @@
 id: uft88mwiuv630sh2yd2dyfd
 title: Plugin
 desc: ''
-updated: 1736750568439
+updated: 1738719602464
 created: 1734600574719
 ---
 
@@ -10,10 +10,10 @@ created: 1734600574719
 
 Plugins below are necessary to be compatible with Dendron:
 
-- [[dendrobs.obsidian.plugin.structured-tree]] add Dendron compatibility to Obsidian.
+- [[dendrobs.obsidian.plugin.structured-tree]] add Dendron Tree View to Obsidian.
 - [[dendrobs.obsidian.plugin.structured]] add commands like `Dendron: Go Up/Go Down` to move between note hierarchies.
 - [[dendrobs.obsidian.plugin.fm-title]] show the field `title` instead of the file name.
-- [[dendrobs.obsidian.plugin.linter]] add Unix timestamp to YAML frontmatter.
+- [[dendrobs.obsidian.plugin.linter]] insert Unix timestamp to YAML frontmatter, replace contents with custom regexes.
 - [[dendrobs.obsidian.plugin.dataview]] add the ability to query from notes' metadata.
   - [[dendrobs.obsidian.plugin.dataview.serializer]] serialize Dataview queries' output to Markdown.
 
