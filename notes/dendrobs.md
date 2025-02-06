@@ -1,10 +1,20 @@
 ---
 id: rzkt0lns2cr49rkl9bg68qt
 title: Dendron.Obsidian
-desc: ''
-updated: 1736330277508
+desc: '*integrating the strengths of Dendron and Obsidian both :P*'
+updated: 1738807850075
 created: 1734583474979
 ---
+
+## TL;DR
+
+### Dendron
+
+The aim of this project is building a powerful second brain by {{fm.desc}}
+
+### Obsidian
+
+The aim of this project is growing a living digital garden by `#= this.desc`
 
 ## Index
 
