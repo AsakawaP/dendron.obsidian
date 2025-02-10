@@ -1,5 +1,5 @@
 ---
-id: rzkt0lns2cr49rkl9bg68qt
+id: dendro-obs
 title: Dendron.Obsidian
 desc: '*integrating the strengths of Dendron and Obsidian both :P*'
 updated: 1738807850075

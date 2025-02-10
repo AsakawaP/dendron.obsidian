@@ -22,4 +22,5 @@ dependencies/github.com/AsakawaP/*
 .trash
 
 # syncthing
-.st*
+.stignore
+.stfolder

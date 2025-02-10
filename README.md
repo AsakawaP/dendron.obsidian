@@ -18,4 +18,4 @@ Thanks to Markdown, it's possible to take the best of both worlds :P
 1. Install VSCode + Dendron, and Obsidian.
 2. Open [`dendron.code-workspace`](dendron.code-workspace) in VSCode,  
    or open this repository in Obsidian.
-3. Start a journey from [`root`](notes/root.md) or [`Index`](notes/dendrobs.md).
+3. Start a journey from [`Index`](notes/dendrobs.md).

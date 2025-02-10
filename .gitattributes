@@ -1,12 +1,6 @@
 # Auto detect text files and perform LF normalization
 *                   text=auto
 
-# Text
-*.yml               text
-*.code-workspace    text
-*.json              text
-*.md                text
-
 # Graphic
 *.png               binary
 *.jpg               binary
