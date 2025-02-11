@@ -3,15 +3,15 @@
         {
             "path": ".",
             "name": "dendron.obsidian"
-        }
+        },
         // {
-        //     "path": "seeds/dendron.dendron-site",
-        //     "name": "dendron.dendron-site"
+        //     "path": "dependencies/github.com/USERNAME",
+        //     "name": "remote vaults"
         // },
         // {
-        //     "path": "seeds/dendron.templates",
-        //     "name": "dendron.templates"
-        // }
+        //     "path": "dependencies/localhost",
+        //     "name": "local vaults"
+        // },
     ],
     "settings": {
         "git.repositoryScanIgnoredFolders": [

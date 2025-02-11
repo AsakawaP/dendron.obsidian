@@ -1,22 +1,27 @@
 {
   "folders": [
-    // NOTE:
-    // Only relative paths of Dendron note folders, where `root.md` files are, should be added to `dendron.code-workspace`.
-    // Adding non-Dendron folders will cause Dendron failing to start.
-    // Dendron can detect vaults defined in `dendron.yml` automatically, so there is no need to add all vaults here.
+/* IMPORTANT:
+ * Only relative paths of Dendron note folders, where `root.md` files are, should be added to `dendron.code-workspace`.
+ * Adding non-Dendron folders will cause Dendron failing to start.
+ * Dendron indexes vaults defined in `dendron.yml` automatically even the folders aren't included in Dendron workspace.
+ * Vaults not included in this workspace will not be discoverable by VSCode global search.
+ * If you want to manage vaults manually, it's recommended to add personal vaults only.
+ */
     {
       "path": "notes",
       "name": "dendron.obsidian"
     }
   ],
   "settings": {
-    // Dendron default settings
+    /* Dendron default settings */
     "dendron.rootDir": ".",
     "files.autoSave": "onFocusChange",
     "pasteImage.path": "${currentFileDir}/assets/images",
-    // NOTE:
-    // The prefix "/" in image paths, which means the absolute path "root", is necessary for Dendron publishing.
-    // If this vault is not intended to be published, or needs to be compatible with Obsidian, the prefix should be removed to use relative paths instead.
+  /* IMPORTANT:
+   * The prefix "/" in image paths, which means the absolute path "root", is necessary for Dendron publishing.
+   * If this vault is not intended to be published, or needs to be compatible with Obsidian,
+   * the prefix should be removed from Markdown links to use relative paths instead.
+   */
     "pasteImage.prefix": "/",
     "markdown-preview-enhanced.enableWikiLinkSyntax": true,
     "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
@@ -25,14 +30,9 @@
     "editor.suggest.showSnippets": true,
     "editor.tabCompletion": "on",
     "dendron.enableSelfContainedVaultWorkspace": true,
-    // VSCode Git settings
+    /* VSCode Git settings */
     // Detect $GIT_DIR of the main repository automatically
     "git.openRepositoryInParentFolders": "always",
-    // Ignore repositories in "seeds" and other folders
-    "git.repositoryScanIgnoredFolders": [
-      "seeds",
-      "node_modules"
-    ],
     // Activate Dendron Tree-View at startup
     "auto-run-command.rules": [
       {

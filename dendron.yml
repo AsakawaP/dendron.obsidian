@@ -1,3 +1,7 @@
+# WARNING:
+# This is Dendron's configuration file.
+# Do not edit directly unless you know what you are doing.
+# Run `Dendron: Configure (UI)` command instead.
 version: 5
 dev:
     enablePreviewV2: true
