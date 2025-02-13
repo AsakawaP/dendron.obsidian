@@ -28,7 +28,6 @@
         "files.exclude": {
             // Dendron
             "**/notes/*.md": false,
-            "obsidian.*/": false,
             "dependencies/": true,
             "**/.dendron.*": true,
             // Obsidian
