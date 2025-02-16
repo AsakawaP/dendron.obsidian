@@ -6,7 +6,7 @@
 
 ## TL;DR
 
-This project aims to explore a workflow by integrating the strengths of [Dendron][] and [Obsidian][] both.
+This project aims to explore a workflow by integrating the strengths of [Dendron][] and [Obsidian][].
 
 Thanks to Markdown, it's possible to take the best of both worlds :P
 
