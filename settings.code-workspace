@@ -16,7 +16,7 @@
     "settings": {
         "git.repositoryScanIgnoredFolders": [
             "seeds",
-            "node_modules"
+            "node_modules",
         ],
         "auto-run-command.rules": [
             {
@@ -34,7 +34,7 @@
             ".obsidian/plugins/**/{main.js,styles.css,manifest.json}": true,
             ".obsidian/plugins/**/{.*.json,*.log}": true,
             ".obsidian/{graph,workspace,workspace-mobile,global-search}.json": true,
-            ".obsidian/themes/": true
+            ".obsidian/themes/": true,
         }
     },
     "extensions": {
@@ -48,7 +48,7 @@
             "takumii.markdowntable",
             "cescript.markdown-formula",
             "gruntfuggly.todo-tree",
-            "geezmolycos.vscode-hanzi-counter"
+            "geezmolycos.vscode-hanzi-counter",
         ]
     }
 }

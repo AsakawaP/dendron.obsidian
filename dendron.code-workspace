@@ -40,7 +40,7 @@
         "command": "workbench.view.extension.dendron-view",
         "message": "Activate Dendron TreeView"
       }
-    ]
+    ],
   },
   "extensions": {
     "recommendations": [
@@ -50,7 +50,7 @@
       "redhat.vscode-yaml",
       "webplan-pro.dendron-keybindings",
       "dendron.adjust-heading-level",
-      "gabrielgrinberg.auto-run-command"
+      "gabrielgrinberg.auto-run-command",
     ],
     "unwantedRecommendations": [
       "dendron.dendron-markdown-links",
