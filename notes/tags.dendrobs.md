@@ -2,9 +2,8 @@
 id: sy1v39gudb52b36lgu88wdi
 title: Dendrobs
 desc: ''
-updated: 1742486679982
+updated: 1742719620244
 created: 1734608184229
-#obsidian.obsolete
 ---
 
 %%
@@ -15,6 +14,7 @@ WHERE
   startswith(file.name, "dendrobs")
   AND icontains(file.tags, regexreplace(this.file.name, "tags\.", ""))
 SORT updated DESC
+LIMIT 10
 ```
 
 %%

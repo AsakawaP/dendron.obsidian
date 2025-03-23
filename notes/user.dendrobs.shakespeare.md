@@ -2,7 +2,7 @@
 id: 82m1bzb94yvoqwtxhykkrth
 title: William Shakespeare 威廉·莎士比亚
 desc: ''
-updated: 1736744373764
+updated: 1742719541559
 created: 1736742458279
 ---
 
@@ -15,6 +15,7 @@ LIST
 WHERE startswith(file.name, "dendrobs")
   AND author = this.file.link
 SORT file.name ASC
+LIMIT 10
 ```
 
 %%
