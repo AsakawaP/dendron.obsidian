@@ -2,13 +2,13 @@
 id: kovwq3qbdllhwtq3dcdjqnw
 title: 硬核笔记 Dendron
 desc: ''
-updated: 1743078355887
+updated: 1743091974207
 created: 1743077431526
 ---
 
 > [!NOTE]  
 > 本文节选自博客 [智商帝 | 个人 PKM 折腾记](https://blog.l0v0.com/posts/afa065b7.html#Dendron)。  
-> 我 @github.asakawap 在这篇文章中发现了 Dendron。
+> @dendrobs.asakawap 在这篇文章中发现了 Dendron。
 
 Dendron 是在 VScode 实现双链笔记的插件……
 提供了 npm 命令行工具可以将自己的笔记生成对应的网站，并且支持文章引用嵌入。
