@@ -12,9 +12,9 @@ created: 1736075056485
 version: 1
 schemas:
   - id: date
-    title: date-schema
+    title: date-tracking-schema
     parent: root
-    desc: Date Schema
+    desc: Date Tracking Schema
     children:
       - pattern: '[0-2][0-9][0-9][0-9]'
         desc: Year

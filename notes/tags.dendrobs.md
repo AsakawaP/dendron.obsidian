@@ -2,29 +2,24 @@
 id: sy1v39gudb52b36lgu88wdi
 title: Dendrobs
 desc: ''
-updated: 1742719620244
+updated: 1743073734715
 created: 1734608184229
 ---
 
-%%
+## MOC of dendron.obsidian
+
+%% DATAVIEW_PUBLISHER: start
 
 ```dataview
-LIST
+LIST WITHOUT ID regexreplace(file.name, "(.+)", "[[$1]]")
 WHERE
-  startswith(file.name, "dendrobs")
-  AND icontains(file.tags, regexreplace(this.file.name, "tags\.", ""))
+  startswith(file.name, "dendrobs.")
+  AND contains(file.tags, regexreplace(this.file.name, "^tags\.", ""))
 SORT updated DESC
-LIMIT 10
 ```
 
 %%
 
-<details>
-<summary>MOC of <b>dendron.obsidian</b></summary>
-
-<!-- QueryToSerialize: LIST WHERE startswith(file.name, "dendrobs") AND icontains(file.tags, regexreplace(this.file.name, "tags\.", "")) SORT updated DESC -->
-<!-- SerializedQuery: LIST WHERE startswith(file.name, "dendrobs") AND icontains(file.tags, regexreplace(this.file.name, "tags\.", "")) SORT updated DESC -->
 - [[dendrobs.obsidian.plugin.structured-tree]]
-<!-- SerializedQuery END -->
 
-</details>
+%% DATAVIEW_PUBLISHER: end %%

@@ -2,7 +2,7 @@
 id: dnqbcn8qnm69kpxo7ehew2t
 title: File Structure
 desc: ''
-updated: 1736076820710
+updated: 1743069400951
 created: 1734575775311
 ---
 
@@ -26,9 +26,10 @@ dendron.obsidian/
 │   └── dendron.dendron-site/
 │       └── vault/
 ├── .obsidian/
+├── obs.*/
 ├── templates/
 │   └── daily.journal.md
-├── obsidian.*/
+├── scripts/
 ├── settings.code-workspace
 ├── .gitignore
 ├── .gitattributes
@@ -56,10 +57,12 @@ dendron.obsidian/
 
 - `.obsidian` Obsidian configurations, themes and plugins
 - `templates` template notes for Obsidian
-- `obsidian.*` folders of notes which rely on Obsidian or are not suitable with Dendron  
+- `obs.*` folders of notes which rely on Obsidian or are not suitable with Dendron  
   e.g. `Obsidian Canvas`, `Longform`
 
 ## VSCode and Git
 
 - `settings.code-workspace` the workspace for configurations and source control management
 - `.gitignore` && `.gitattributes` Git config files
+- `scripts` user scripts
+  e.g. [[dendrobs.obsidian.plugin.templater]] user scripts
