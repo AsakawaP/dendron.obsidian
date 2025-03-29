@@ -2,7 +2,7 @@
 id: sy1v39gudb52b36lgu88wdi
 title: Dendrobs
 desc: ''
-updated: 1743073734715
+updated: 1743230860148
 created: 1734608184229
 ---
 
@@ -16,6 +16,7 @@ WHERE
   startswith(file.name, "dendrobs.")
   AND contains(file.tags, regexreplace(this.file.name, "^tags\.", ""))
 SORT updated DESC
+LIMIT 10
 ```
 
 %%

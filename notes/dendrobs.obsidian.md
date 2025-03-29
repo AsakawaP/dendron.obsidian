@@ -2,7 +2,7 @@
 id: d3r7tx67vs13irxfaipj9sb
 title: Obsidian
 desc: ''
-updated: 1743066049608
+updated: 1743230847085
 created: 1734585452100
 ---
 
@@ -15,9 +15,10 @@ created: 1734585452100
 
 ```dataview
 LIST WITHOUT ID regexreplace(file.name, "(.+)", "[[$1]]")
-FROM -"seeds"
+FROM -"templates" AND -"seeds"
 WHERE regexmatch("\.[^.]+", replace(file.name, this.file.name, ""))
 SORT file.name ASC
+LIMIT 10
 ```
 
 %%
