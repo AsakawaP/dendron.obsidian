@@ -1,13 +1,15 @@
 ---
 id: dendron-obsidian-root
 title: Root
-desc: ''
-updated: 1738808005556
+desc: There is no loftier ambition than the pursuit of knowledge.
+updated: 1743575646027
 created: 1729820200500
 uri: https://github.com/AsakawaP/dendron.obsidian
 ---
 
 ![logo-banner](assets/images/dendrobs.dendron.png)
+
+> {{fm.desc}}
 
 This is the root of the dendron vault.
 
