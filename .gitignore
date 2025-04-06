@@ -12,7 +12,7 @@ dependencies/github.com/AsakawaP/*
 
 # obsidian
 .obsidian/plugins/*/**
-!.obsidian/plugins/**/data.json
+!.obsidian/plugins/*/data.json
 .obsidian/themes/*
 .obsidian/community-plugins.json
 .obsidian/workspace.json
