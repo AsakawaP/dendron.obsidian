@@ -2,8 +2,10 @@
 id: d3r7tx67vs13irxfaipj9sb
 title: Obsidian
 desc: ''
-updated: 1743230847085
+updated: 1745466659616
 created: 1734585452100
+tags:
+  - dendrobs.dataview
 ---
 
 ## Index
@@ -14,7 +16,7 @@ created: 1734585452100
 %% DATAVIEW_PUBLISHER: start
 
 ```dataview
-LIST WITHOUT ID regexreplace(file.name, "(.+)", "[[$1]]")
+LIST WITHOUT ID "[[" + file.name + "]]"
 FROM -"templates" AND -"seeds"
 WHERE regexmatch("\.[^.]+", replace(file.name, this.file.name, ""))
 SORT file.name ASC
@@ -33,3 +35,11 @@ LIMIT 10
 
 - [Obsidian Home Page](https://obsidian.md/)
 - [Obsidian Help](https://help.obsidian.md/Home)
+
+***
+
+## Description
+
+dv-desc:: Dataview => Dendron flavored index for all children of this note
+
+dv-desc-zh:: Dataview => Dendron 风格的目录，列出此笔记的所有子项

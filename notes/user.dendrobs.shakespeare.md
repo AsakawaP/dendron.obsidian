@@ -2,15 +2,17 @@
 id: 82m1bzb94yvoqwtxhykkrth
 title: William Shakespeare 威廉·莎士比亚
 desc: ''
-updated: 1743230855927
+updated: 1745467105475
 created: 1736742458279
+tags:
+  - dendrobs.dataview
 ---
 
 %% DATAVIEW_PUBLISHER: start
 
 ```dataview
 TABLE WITHOUT ID
-regexreplace(file.name, "(.+)", "[[$1]]") AS "File",
+"[[" + file.name + "]]" AS "File",
 regexreplace(string(author), "\[\[[^|]+\|([^\]]+)\]\]", "[[$1]]") AS "Author",
 title AS "Title"  
 FROM -"templates" AND -"seeds"
@@ -30,3 +32,11 @@ LIMIT 10
 | [[dendrobs.example.othello]] | [[user.dendrobs.shakespeare]] | Othello 奥赛罗   |
 
 %% DATAVIEW_PUBLISHER: end %%
+
+***
+
+## Description
+
+dv-desc:: Dataview => Markdown table output, compatible with Dendron
+
+dv-desc-zh:: Dataview => 输出兼容 Dendron 的 Markdown 表格
