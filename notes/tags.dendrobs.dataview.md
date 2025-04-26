@@ -2,7 +2,7 @@
 id: r5winop2exv8b2rwuoq3xb8
 title: Dataview
 desc: ''
-updated: 1745475861918
+updated: 1745579753497
 created: 1745456216891
 tags:
   - dendrobs.dataview
@@ -25,7 +25,7 @@ LIST WITHOUT ID "[[" + file.name + "]] " + dv-desc
 FROM -"templates" AND -"seeds"
 WHERE contains(file.tags, regexreplace(this.file.name, "^tags\.", ""))
 SORT updated DESC
-LIMIT 10
+LIMIT 50
 ```
 
 %%

@@ -2,7 +2,7 @@
 id: 9ub5ovtcemqwbjaz3pq08mz
 title: Kevin Lin
 desc: ''
-updated: 1745466261393
+updated: 1745579753395
 created: 1735304738957
 tags:
   - dendrobs.dataview
@@ -23,7 +23,7 @@ FROM -"templates" AND -"seeds"
 WHERE
   dendrobs-user = "@" + regexreplace(this.file.name, "^user.", "")
 SORT updated DESC
-LIMIT 10
+LIMIT 50
 ```
 
 %%

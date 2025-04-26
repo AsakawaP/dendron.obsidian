@@ -2,7 +2,7 @@
 id: d3r7tx67vs13irxfaipj9sb
 title: Obsidian
 desc: ''
-updated: 1745466659616
+updated: 1745579753516
 created: 1734585452100
 tags:
   - dendrobs.dataview
@@ -20,7 +20,7 @@ LIST WITHOUT ID "[[" + file.name + "]]"
 FROM -"templates" AND -"seeds"
 WHERE regexmatch("\.[^.]+", replace(file.name, this.file.name, ""))
 SORT file.name ASC
-LIMIT 10
+LIMIT 50
 ```
 
 %%
