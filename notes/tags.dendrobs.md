@@ -2,7 +2,7 @@
 id: sy1v39gudb52b36lgu88wdi
 title: Dendrobs
 desc: ''
-updated: 1745579753469
+updated: 1748132492102
 created: 1734608184229
 tags:
   - dendrobs.dataview
@@ -17,14 +17,13 @@ LIST WITHOUT ID "[[" + file.name + "]]"
 FROM -"templates" AND -"seeds"
 WHERE
   startswith(file.name, "dendrobs.")
-  AND contains(file.tags, regexreplace(this.file.name, "^tags\.", ""))
+  AND econtains(file.tags, regexreplace(this.file.name, "^tags\.", "#"))
 SORT updated DESC
 LIMIT 50
 ```
 
 %%
 
-- [[dendrobs.obsidian]]
 - [[dendrobs.obsidian.plugin.structured-tree]]
 
 %% DATAVIEW_PUBLISHER: end %%

@@ -2,7 +2,7 @@
 id: 82m1bzb94yvoqwtxhykkrth
 title: William Shakespeare 威廉·莎士比亚
 desc: ''
-updated: 1745579753440
+updated: 1748132616969
 created: 1736742458279
 tags:
   - dendrobs.dataview
@@ -14,7 +14,7 @@ tags:
 TABLE WITHOUT ID
 "[[" + file.name + "]]" AS "File",
 regexreplace(string(author), "\[\[[^|]+\|([^\]]+)\]\]", "[[$1]]") AS "Author",
-title AS "Title"  
+title AS "Title"
 FROM -"templates" AND -"seeds"
 WHERE startswith(file.name, "dendrobs")
   AND econtains(author, this.file.link)

@@ -2,7 +2,7 @@
 id: r5winop2exv8b2rwuoq3xb8
 title: Dataview
 desc: ''
-updated: 1745579753497
+updated: 1748132572961
 created: 1745456216891
 tags:
   - dendrobs.dataview
@@ -23,7 +23,7 @@ Create your template notes with these [[dendrobs]] Dataview codeblock examples.
 ```dataview
 LIST WITHOUT ID "[[" + file.name + "]] " + dv-desc
 FROM -"templates" AND -"seeds"
-WHERE contains(file.tags, regexreplace(this.file.name, "^tags\.", ""))
+WHERE econtains(file.tags, regexreplace(this.file.name, "^tags\.", "#"))
 SORT updated DESC
 LIMIT 50
 ```
@@ -31,9 +31,9 @@ LIMIT 50
 %%
 
 - [[tags.dendrobs.dataview]] Dataview => Dendron flavored multiple-hierarchy frontmatter tag
-- [[user.dendrobs.shakespeare]] Dataview => Markdown table output, compatible with Dendron
 - [[tags.dendrobs]] Dataview => Single-hierarchy tag (frontmatter or inline `#` hashtag), compatible with Obsidian
 - [[dendrobs.obsidian]] Dataview => Dendron flavored index for all children of this note
+- [[user.dendrobs.shakespeare]] Dataview => Markdown table output, compatible with Dendron
 - [[user.kevinslin]] Dataview => Dendron flavored `@` user notes
 
 %% DATAVIEW_PUBLISHER: end %%
