@@ -2,7 +2,7 @@
 
 ![logo-banner](notes/assets/images/dendrobs.dendron.png)
 
-> There is no loftier ambition than the pursuit of knowledge.
+> Wisdom is not a product of schooling but of the lifelong attempt to acquire it.
 
 ## TL;DR
 
