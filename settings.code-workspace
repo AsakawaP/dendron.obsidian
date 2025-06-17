@@ -1,54 +1,42 @@
 {
-    "folders": [
-        {
-            "path": ".",
-            "name": "dendron.obsidian"
-        },
-        // {
-        //     "path": "dependencies/github.com/USERNAME",
-        //     "name": "remote vaults"
-        // },
-        // {
-        //     "path": "dependencies/localhost",
-        //     "name": "local vaults"
-        // },
-    ],
-    "settings": {
-        "git.repositoryScanIgnoredFolders": [
-            "seeds",
-            "node_modules",
-        ],
-        "auto-run-command.rules": [
-            {
-                "condition": "always",
-                "command": "workbench.view.scm",
-                "message": "Show Source Control"
-            }
-        ],
-        "files.exclude": {
-            // Dendron
-            "**/notes/*.md": false,
-            "dependencies/": true,
-            "**/.dendron.*": true,
-            // Obsidian
-            ".obsidian/plugins/**/{main.js,styles.css,manifest.json}": true,
-            ".obsidian/plugins/**/{.*.json,*.log}": true,
-            ".obsidian/{graph,workspace,workspace-mobile,global-search}.json": true,
-            ".obsidian/themes/": true,
-        }
+  // XXX
+  // ! deprecated
+  "folders": [
+    {
+      "path": ".",
+      "name": "dendron.obsidian"
     },
-    "extensions": {
-        "recommendations": [
-            "oderwat.indent-rainbow",
-            "davidanson.vscode-markdownlint",
-            "huacnlee.autocorrect",
-            "yzhang.markdown-all-in-one",
-            "jebbs.markdown-extended",
-            "iiwenwen.markdown-footnote",
-            "takumii.markdowntable",
-            "cescript.markdown-formula",
-            "gruntfuggly.todo-tree",
-            "geezmolycos.vscode-hanzi-counter",
-        ]
+    // {
+    //     "path": "dependencies/github.com/USERNAME",
+    //     "name": "remote vaults"
+    // },
+    // {
+    //     "path": "dependencies/localhost",
+    //     "name": "local vaults"
+    // },
+  ],
+  "settings": {
+    "git.repositoryScanIgnoredFolders": [
+      "seeds",
+      "node_modules",
+    ],
+    "auto-run-command.rules": [
+      {
+        "condition": "always",
+        "command": "workbench.view.scm",
+        "message": "Show Source Control"
+      }
+    ],
+    "files.exclude": {
+      // Dendron
+      "**/notes/*.md": false,
+      "dependencies/": true,
+      "**/.dendron.*": true,
+      // Obsidian
+      ".obsidian/plugins/**/{main.js,styles.css,manifest.json}": true,
+      ".obsidian/plugins/**/{.*.json,*.log}": true,
+      ".obsidian/{graph,workspace,workspace-mobile,global-search}.json": true,
+      ".obsidian/themes/": true,
     }
+  }
 }

@@ -1,0 +1,17 @@
+{
+  "files.exclude": {
+    // Dendron
+    "**/notes/*.md": true,
+    "dependencies/**/assets/": true,
+    "**/.dendron.*": true,
+    // Obsidian
+    ".obsidian/plugins/**/{main.js,styles.css,manifest.json}": true,
+    ".obsidian/plugins/**/_*.json": true,
+    ".obsidian/plugins/**/*.log": true,
+    ".obsidian/{graph,workspace,workspace-mobile,global-search}.json": true,
+    ".obsidian/*.{wasm}": true,
+    ".obsidian/themes/": true,
+    // Python
+    ".venv/": true,
+  },
+}
