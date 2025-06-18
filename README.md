@@ -1,6 +1,6 @@
 # dendron.obsidian
 
-![logo-banner](notes/assets/images/dendrobs.dendron.png)
+![logo-banner](notes/assets/images/my-seed.dendron.png)
 
 > Wisdom is not a product of schooling but of the lifelong attempt to acquire it.
 

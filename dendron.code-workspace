@@ -1,11 +1,11 @@
 {
   "folders": [
-/* IMPORTANT:
- * Only relative paths of Dendron note folders, where `root.md` files are, should be added to `dendron.code-workspace`.
- * Adding non-Dendron folders will cause Dendron failing to start.
- * Dendron indexes vaults defined in `dendron.yml` automatically even the folders aren't included in Dendron workspace.
- * Vaults not included in this workspace will not be discoverable by VSCode global search.
- * If you want to manage vaults manually, it's recommended to add personal vaults only.
+/**
+ * ;;; Root directory should be added to the bottom of `folders` list.
+ * ;;; Otherwise, Dendron may fail to start.
+ * Dendron indexes vaults defined in `dendron.yml` automatically,
+ * even the folders aren't included in Dendron workspace.
+ * But only folders included are discoverable in VSCode global search.
  */
     {
       "path": "notes",
@@ -29,10 +29,12 @@
     "dendron.rootDir": ".",
     "files.autoSave": "onFocusChange",
     "pasteImage.path": "${currentFileDir}/assets/images",
-  /* IMPORTANT:
-   * The prefix "/" in image paths, which means the absolute path "root", is necessary for Dendron publishing.
-   * If this vault is not intended to be published, or needs to be compatible with Obsidian,
-   * the prefix should be removed from Markdown links to use relative paths instead.
+  /**
+   * ;;; The prefix "/" in image paths, which means the absolute path "root",
+   * ;;; is necessary for Dendron publishing.
+   * If this vault is not intended to be published,
+   * or needs to be compatible with Obsidian,
+   * remove the prefix from Markdown links to use relative paths instead.
    */
     "pasteImage.prefix": "/",
     "markdown-preview-enhanced.enableWikiLinkSyntax": true,
@@ -42,6 +44,7 @@
     "editor.suggest.showSnippets": true,
     "editor.tabCompletion": "on",
     "dendron.enableSelfContainedVaultWorkspace": true,
+
     /* VSCode Git settings */
     // Detect $GIT_DIR of the main repository automatically
     "git.openRepositoryInParentFolders": "always",
@@ -49,6 +52,12 @@
       "seeds",
       "node_modules",
     ],
+
+    /* Markdown */
+    "[markdown]": {
+      "editor.renderWhitespace": "boundary",
+    },
+
     /* Automation */
     "auto-run-command.rules": [
       {
@@ -58,6 +67,7 @@
         "message": "Activate Dendron TreeView"
       }
     ],
+
     /* Macros */
     "multiCommand.commands": [
       {
@@ -86,26 +96,29 @@
   },
   "extensions": {
     "recommendations": [
-      // Dendron
+      /* Dendron */
       "dendron.dendron",
       "dendron.dendron-paste-image",
       "dendron.dendron-markdown-shortcuts",
       "redhat.vscode-yaml",
       "webplan-pro.dendron-keybindings",
       "dendron.adjust-heading-level",
-      // Highly Recommended
+
+      /* Highly Recommended */
       "ryuta46.multi-command",
       "gabrielgrinberg.auto-run-command",
       "gruntfuggly.todo-tree",
       "oderwat.indent-rainbow",
-      // Markdown
+
+      /* Markdown */
       "davidanson.vscode-markdownlint",
       "yzhang.markdown-all-in-one",
       "jebbs.markdown-extended",
       "iiwenwen.markdown-footnote",
       "takumii.markdowntable",
       "cescript.markdown-formula",
-      // CJK characters
+
+      /* CJK characters */
       "huacnlee.autocorrect",
       "geezmolycos.vscode-hanzi-counter",
     ],

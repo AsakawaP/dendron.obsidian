@@ -1,11 +1,11 @@
 ---
 id: sy1v39gudb52b36lgu88wdi
-title: Dendrobs
+title: My Seed
 desc: ''
-updated: 1748132492102
+updated: 1750240600017
 created: 1734608184229
 tags:
-  - dendrobs.dataview
+  - my-seed.dataview
 ---
 
 ## MOC of dendron.obsidian
@@ -16,15 +16,15 @@ tags:
 LIST WITHOUT ID "[[" + file.name + "]]"
 FROM -"templates" AND -"seeds"
 WHERE
-  startswith(file.name, "dendrobs.")
-  AND econtains(file.tags, regexreplace(this.file.name, "^tags\.", "#"))
-SORT updated DESC
+  econtains(file.tags, regexreplace(this.file.name, "^tags\.", "#"))
+  AND startswith(file.name, "my-seed.")
+SORT file.name ASC
 LIMIT 50
 ```
 
 %%
 
-- [[dendrobs.obsidian.plugin.structured-tree]]
+- [[my-seed.obsidian.plugin.structured-tree]]
 
 %% DATAVIEW_PUBLISHER: end %%
 

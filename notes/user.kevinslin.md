@@ -2,13 +2,13 @@
 id: 9ub5ovtcemqwbjaz3pq08mz
 title: Kevin Lin
 desc: ''
-updated: 1745579753395
+updated: 1750236361037
 created: 1735304738957
 tags:
-  - dendrobs.dataview
+  - my-seed.dataview
 ---
 
-{{fm.title}} is the founder and CEO of [[dendrobs.dendron]].
+{{fm.title}} is the founder and CEO of [[my-seed.dendron]].
 
 - [Personal HomePage](https://www.kevinslin.com)
 - [GitHub](https://github.com/kevinslin)
@@ -21,15 +21,15 @@ tags:
 LIST WITHOUT ID "[[" + file.name + "]]"
 FROM -"templates" AND -"seeds"
 WHERE
-  dendrobs-user = "@" + regexreplace(this.file.name, "^user.", "")
-SORT updated DESC
+  seed-example-user = "@" + regexreplace(this.file.name, "^user.", "")
+SORT file.name ASC
 LIMIT 50
 ```
 
 %%
 
-- [[dendrobs.resource.its-your-knowledge-base]]
-- [[dendrobs.resource.how-to-index-10000-notes]]
+- [[my-seed.resource.its-your-knowledge-base]]
+- [[my-seed.resource.how-to-index-10000-notes]]
 
 %% DATAVIEW_PUBLISHER: end %%
 

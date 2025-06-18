@@ -2,12 +2,12 @@
 id: 457mx0oge3noowdooy67vqs
 title: It's Not You - It's Your Knowledge Base.
 desc: ''
-updated: 1743578072911
+updated: 1750236358024
 created: 1743075798584
 ---
 
 > [!NOTE]  
-> This is an excerpt from the [post][blog] by (dendrobs-user:: @kevinslin) about his ideas for PKM, Dendron, and more.
+> This is an excerpt from the [post][blog] by (seed-example-user:: @kevinslin) about his ideas for PKM, Dendron, and more.
 >
 > 在这篇[博客文章][blog]中，[[user.kevinslin]] 探讨了对于知识管理及 Dendron 的理念。
 

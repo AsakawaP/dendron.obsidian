@@ -10,13 +10,13 @@ created: 1734600574719
 
 Plugins below are necessary to be compatible with Dendron:
 
-- [[dendrobs.obsidian.plugin.structured-tree]] add Dendron Tree View to Obsidian.
-- [[dendrobs.obsidian.plugin.structured]] add commands like `Dendron: Go Up/Go Down` to move between note hierarchies.
-- [[dendrobs.obsidian.plugin.fm-title]] show the field `title` instead of the file name.
-- [[dendrobs.obsidian.plugin.linter]] insert Unix timestamp to YAML frontmatter, replace contents with custom regexes.
-- [[dendrobs.obsidian.plugin.dataview]] add the ability to query from the note properties.
-  - [[dendrobs.obsidian.plugin.dataview.publisher]] transform the output from Dataview queries to Markdown for publishing.
-- [[dendrobs.obsidian.plugin.templater]]
+- [[my-seed.obsidian.plugin.structured-tree]] add Dendron Tree View to Obsidian.
+- [[my-seed.obsidian.plugin.structured]] add commands like `Dendron: Go Up/Go Down` to move between note hierarchies.
+- [[my-seed.obsidian.plugin.fm-title]] show the field `title` instead of the file name.
+- [[my-seed.obsidian.plugin.linter]] insert Unix timestamp to YAML frontmatter, replace contents with custom regexes.
+- [[my-seed.obsidian.plugin.dataview]] add the ability to query from the note properties.
+  - [[my-seed.obsidian.plugin.dataview.publisher]] transform the output from Dataview queries to Markdown for publishing.
+- [[my-seed.obsidian.plugin.templater]]
 
 ## Highly Recommended Plugins
 

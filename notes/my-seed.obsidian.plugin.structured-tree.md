@@ -5,12 +5,12 @@ desc: ''
 updated: 1743066591257
 created: 1734606258674
 tags:
-  - dendrobs
+  - my-seed
 ---
 
 > [Rudtrack/structured-tree](https://github.com/Rudtrack/structured-tree)
 
-{{fm.title}} is an active folk of [levirs565/obsidian-dendron-tree][dendron-tree], and adds a tree view for exploring [[dendrobs.dendron.vscode]] style notes.
+{{fm.title}} is an active folk of [levirs565/obsidian-dendron-tree][dendron-tree], and adds a tree view for exploring [[my-seed.dendron.vscode]] style notes.
 
 [dendron-tree]: <https://github.com/levirs565/obsidian-dendron-tree>
 
