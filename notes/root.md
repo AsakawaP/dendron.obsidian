@@ -1,13 +1,13 @@
 ---
-id: dendron-obsidian-root
+id: dbpkm-root
 title: Root
 desc: ''
 updated: 1750240223745
 created: 1729820200500
-uri: 'https://github.com/AsakawaP/dendron.obsidian'
+uri: 'https://github.com/AsakawaP/dbpkm'
 ---
 
-![logo-banner](assets/images/my-seed.dendron.png)
+![logo-banner](assets/images/dendron.png)
 
 > Wisdom is not a product of schooling but of the lifelong attempt to acquire it.
 

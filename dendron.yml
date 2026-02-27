@@ -29,7 +29,7 @@ workspace:
         -
             fsPath: .
             selfContained: true
-            name: dendron.obsidian
+            name: DBPKM
     journal:
         dailyDomain: daily
         name: journal
@@ -96,7 +96,7 @@ publishing:
     writeStubs: false
     siteRootDir: docs
     seo:
-        title: Dendron + Obsidian
+        title: DBPKM - Database-style Personal Knowledge Management
         description: Personal Knowledge Space
     github:
         enableEditLink: true

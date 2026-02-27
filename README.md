@@ -1,12 +1,12 @@
-# dendron.obsidian
+# DBPKM
 
-![logo-banner](notes/assets/images/my-seed.dendron.png)
+![logo-banner](notes/assets/images/dendron.png)
 
 > Wisdom is not a product of schooling but of the lifelong attempt to acquire it.
 
 ## TL;DR
 
-This project aims to explore a workflow by integrating the strengths of [Dendron][] and [Obsidian][].
+This project aims to explore a workflow by integrating the strengths of Python, [Dendron][] and [Obsidian][].
 
 Thanks to Markdown, it's possible to take the best of both worlds :P
 
