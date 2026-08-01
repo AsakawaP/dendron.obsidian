@@ -2,7 +2,7 @@
 id: 457mx0oge3noowdooy67vqs
 title: It's Not You - It's Your Knowledge Base.
 desc: ''
-updated: 1750236358024
+updated: 1777430772011
 created: 1743075798584
 ---
 
@@ -26,7 +26,7 @@ The fundamental problem with a search centric model for managing information is 
 Here, a keyword is defined as any term that has ever been or might ever be used in the human language. To get the right result, two things need to happen.
 
 1. Out of the vast universe of all possible keywords, you need to pick out the right keywords that **match the relevant document you are looking for** when you are **looking for it.**
-2. Out of the vast universe of all possible keywords, you need to have picked out the right keywords that **you thought might match a future query** when you **first created the document.**
+1. Out of the vast universe of all possible keywords, you need to have picked out the right keywords that **you thought might match a future query** when you **first created the document.**
 
 The odds of both things happening, especially over long periods, are astronomical. It is like trying to find a star in the night sky by just its description.
 

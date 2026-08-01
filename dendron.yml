@@ -29,7 +29,7 @@ workspace:
         -
             fsPath: .
             selfContained: true
-            name: DBPKM
+            name: PMM
     journal:
         dailyDomain: daily
         name: journal
@@ -96,8 +96,8 @@ publishing:
     writeStubs: false
     siteRootDir: docs
     seo:
-        title: DBPKM - Database-style Personal Knowledge Management
-        description: Personal Knowledge Space
+        title: DBPMM - Database-style Personal Memory Management
+        description: Personal Memory Space
     github:
         enableEditLink: true
         editLinkText: Edit this page on GitHub
